@@ -1,0 +1,63 @@
+.lessons-item {
+    align-items: center;
+}
+
+.lessons-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.lessons-content {
+    text-align: left;
+}
+
+.lessons-content span,
+.lessons-content p {
+    color: #8B4513;
+}
+
+.lessons-content span {
+    font-weight: bold;
+}
+
+.lessons-content p {
+    margin-top: 1.5rem;
+}
+
+.lessons-content p::first-letter {
+    text-transform: capitalize;
+}
+
+/* ===========================  media  =========================== */
+@media (min-width: 320px) {
+    .lessons-item {
+        flex-wrap: wrap;
+    }
+}
+
+/* ============================================= */
+@media (min-width: 576px) {}
+
+/* ================================================ */
+@media (min-width: 768px) {
+    .lessons-content span {
+        font-size: 1.125rem;
+    }
+
+    .lessons-content p {
+        font-size: 1rem;
+    }
+}
+
+/* ================================================ */
+@media (min-width: 992px) {}
+
+/* ================================================ */
+@media (min-width: 1200px) {
+    .lessons-content span {
+        font-size: 1.75rem;
+    }
+
+    .lessons-content p {
+        font-size: 1rem;
+    }
+}

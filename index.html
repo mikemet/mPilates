@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head lang="ru">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/b26721f731.js" crossorigin="anonymous"></script>
+    <title>Пилатес</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <div class=" row header-top justify-content-between px-3 align-items-center">
+
+                <div class="col">
+                    <img src="images/logo.png" class="logo" alt="">
+                </div>
+
+                <div class="col main-menu">
+
+                    <div class="dropdown">
+                        <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="images/main-menu.png" alt="">
+                        </a>
+
+                        <div class="dropdown-menu px-3" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#about">О Пилатесе</a>
+                            <a class="dropdown-item" href="#shedule">Расписание и стоимость</a>
+                            <a class="dropdown-item" href="#lessons">Как проходят занятия</a>
+                            <a class="dropdown-item" href="#comments">Отзывы</a>
+                            <a class="dropdown-item" href="#contacts">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col phone">
+                    <i class="fas fa-phone-alt mr-2"></i>
+                    <p>+7 918 365 07 07</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col row header-content flex-column align-items-center pt-5">
+                    <div class="col">
+                        <span>Студия<br>Пилатес</span>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <p>Твое здоровое тело через 10 занятий</p>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#shedule">Смотреть расписание</a>
+                    </div>
+                </div>
+
+                <div class="col d-none d-md-block d-lg-block">
+                    <img class="header-photo" src="images/header-photo.png" alt="">
+                </div>
+                <div class="col d-sm-block d-md-none">
+                    <img src="images/header-photo-flip.png" class="logo" alt="">
+                </div>
+            </div>
+
+            <img src="images/nav-right-01.png" class="nav-right" alt="" />
+        </div>
+    </section>
+    <!--==============================  about  ========================================-->
+    <section class="about">
+        <div class="container">
+            <a name="about"></a>
+            <div class="section-title">
+                <hr />
+                <span>о пилатесе</span>
+            </div>
+            <div class=" row">
+                <div class="about-item">
+                    <div class="about-content col">
+                        <p>
+                            Пилатес соединяет элементы растяжки<br>
+                            с элементами силовой тренировки.
+                        </p>
+                        <p>
+                            Комплекс упражнений укрепляет мышцы пресса<br>
+                            и спины, улучшает гибкость мышц и связок,<br>
+                            подвижность суставов и избавляет<br>
+                            от дискомфорта в позвоночнике.
+                        </p>
+                        <a href="#">подробнее &nbsp;&nbsp; <i class="fas fa-chevron-right mt-2"></i></a>
+                    </div>
+                    <div class="col">
+                        <img src="images/about.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <img src="images/nav-right-02.png" class="nav-right" alt="" />
+        </div>
+    </section>
+    <!-- ===============================  shedule  =============================================== -->
+    <section class="shedule">
+        <div class="container">
+            <a name="shedule"></a>
+            <div class="section-title">
+                <hr>
+                <span>расписание и стоимость</span>
+            </div>
+            <div class="row level">
+
+                <div class="level-item col-sm-6 col-md py-5 px-md-5 mx-4 mx-sm-3 mx-md-2 mx-lg-3">
+                    <span class="level-number">01</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>новичок</span>
+                    </div>
+                    <p class="cost">150 руб. / занятие</p>
+                    <p><span class="week-day">пн</span> &nbsp;&nbsp; 9:00 - 10:00</p>
+                    <p><span class="week-day">ср</span> &nbsp;&nbsp; 9:00 - 10:00</p>
+                    <p><span class="week-day">пт</span> &nbsp;&nbsp; 9:00 - 10:00</p>
+                    <a href="#" data-toggle="modal" data-target="#signupModal">записаться</a>
+                </div>
+
+                <div class="level-item col-sm-6 col-md py-5 px-md-5 mx-4 mx-sm-3 mx-md-2 mx-lg-3">
+                    <span class="level-number">02</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>профи</span>
+                    </div>
+                    <p class="cost">200 руб. / занятие</p>
+                    <p><span class="week-day">пн</span> &nbsp;&nbsp; 18:15 - 19:45</p>
+                    <p><span class="week-day">ср</span> &nbsp;&nbsp; 18:15 - 19:45</p>
+                    <p><span class="week-day">пт</span> &nbsp;&nbsp; 18:15 - 19:45</p>
+                    <a href="#" data-toggle="modal" data-target="#signupModal">записаться</a>
+                </div>
+
+                <div class="level-item col-sm-6 col-md py-5 px-md-5 mx-4 mx-sm-3 mx-md-2 mx-lg-3">
+                    <span class="level-number">03</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>мастер</span>
+                    </div>
+                    <p class="cost">350 руб. / занятие</p>
+                    <p><span class="week-day">пн</span> &nbsp;&nbsp; 20:00 - 21:30</p>
+                    <p><span class="week-day">ср</span> &nbsp;&nbsp; 20:00 - 21:30</p>
+                    <p><span class="week-day">пт</span> &nbsp;&nbsp; 20:00 - 21:30</p>
+                    <a href="#" data-toggle="modal" data-target="#signupModal">записаться</a>
+                </div>
+            </div>
+            <img src="images/nav-right-03.png" class="nav-right" alt="">
+
+            <!-- ==========================  modal window  ============================================ -->
+            <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content text-center">
+                        <div class="modal-header justify-content-center">
+                            <h5 class="modal-title" id="exampleModalLabel">Хочешь записаться на занятие?</h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <p>Оставьте контакты и наши менеджеры свяжуться в ближайшее время.</p>
+
+                            <form>
+                                <div class="form-row">
+                                    <div class="col mb-4">
+                                        <input type="text" placeholder="Имя">
+                                    </div>
+                                    <div class="col mb-4">
+                                        <input type="text" placeholder="Телефон">
+                                    </div>
+                                    <div class="col mb-4">
+                                        <input type="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div class="modal-footer justify-content-around">
+                            <div class="form-check mb-3">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue"
+                                        checked>
+                                    &nbsp; Я согласен на обработку персональных данных.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn saveButton px-5">Записаться</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- =================================  end modal  ========================== -->
+        </div>
+    </section>
+    <!-- ===============================  lessons  ====================================== -->
+    <section class="lessons">
+        <div class="container">
+            <a name="lessons"></a>
+            <div class="section-title">
+                <hr>
+                <span>как проходят занятия</span>
+            </div>
+
+            <div class="row lessons-item">
+                <div class="lessons-content col-sm-12 col-md my-3">
+                    <span>Дыхательные техники</span>
+                    <p>
+                        специальные дыхательные упражнения помогут
+                        сконцентрировать внимание и сфокусировать
+                        сознание на мышцах тела
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <img src="images/lessons-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="row lessons-item">
+                <div class="lessons-content col-sm-12 col-md my-3">
+                    <span>Разминка</span>
+                    <p>
+                        перед началом занятия разогреваем тело:
+                        прорабатываем мышцы спины, шеи, выполняем
+                        упражнения на баланс под спокойную музыку
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <img src="images/lessons-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row lessons-item">
+                <div class="lessons-content col-sm-12 col-md my-3">
+                    <span>Основной блок</span>
+                    <p>
+                        упражнения выполняются лежа на коврике
+                        без оборудования или с малым оборудованием,
+                        в медленном темпе
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <img src="images/lessons-img-3.png" alt="">
+                </div>
+            </div>
+
+            <div class="row lessons-item">
+                <div class="lessons-content col-sm-12 col-md my-3">
+                    <span>Стрейчинг</span>
+                    <p>
+                        в конце занятия выполняем специальные
+                        упражнения для развития гибкости, снятия
+                        усталости, стресса и мышечного напряжения
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <img src="images/lessons-img-4.png" alt="">
+                </div>
+
+            </div>
+
+            <div>
+                <img src="images/nav-right-04.png" class="nav-right" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- =================================  comments  ===================================== -->
+    <section class="comments">
+        <div class="container">
+            <a name="comments"></a>
+            <div class="section-title">
+                <hr>
+                <span>отзывы</span>
+            </div>
+
+            <div class="row">
+                <div class="carousel slide" id="carouselComments" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="rounded-circle active" data-target="#carouselComments" data-slide-to="0"></li>
+                        <li class="rounded-circle" data-target="#carouselComments" data-slide-to="1"></li>
+                        <li class="rounded-circle" data-target="#carouselComments" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner pt-2 pb-5">
+                        <img class="slider-circles d-none d-lg-block" src="images/comments-circles.png" alt="">
+
+                        <div class="carousel-item active">
+                            <div class="comment-item">
+                                <div class="slider-photo col-md col-lg-4">
+                                    <img src="images/comments-photo-1.png" class="rounded-circle" alt="">
+                                </div>
+                                <div class="comment-content col-md col-lg-6">
+                                    <span>вероника кулешова</span>
+                                    <div class="comment-item-social">
+                                        <p>25 лет</p>
+                                        <a href="#"><i class="fab fa-vk"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                    <p class="clearfix">
+                                        Хожу на пилатес уже пять месяцев.
+                                        После десяти занятий уже увидела результат: тело
+                                        подтянулось, улучшилась осанка, появился пресс.
+                                        И самое главное, пропал сильный изгиб поясничного
+                                        отдела, который меня очень беспокоил.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="comment-item">
+                                <div class="slider-photo col-md col-lg-4">
+                                    <img src="images/comments-photo-2.png" class="rounded-circle" alt="">
+                                </div>
+                                <div class="comment-content col-md col-lg-6">
+                                    <span>елена панина</span>
+                                    <div class="comment-item-social">
+                                        <p>22 года</p>
+                                        <a href="#"><i class="fab fa-vk"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                    <p class="clearfix">
+                                        Очень нравятся занятия, хожу уже пять месяцев.
+                                        На занятиях делаем много упражнений на пресс,
+                                        бедра и спину. Мышци подтянулись, появился рельеф
+                                        и хорошее настроение :) <br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="comment-item">
+                                <div class="slider-photo col-md col-lg-4">
+                                    <img src="images/comments-photo-3.png" class="rounded-circle" alt="">
+                                </div>
+                                <div class="comment-content col-md col-lg-6">
+                                    <span>ольга рунина</span>
+                                    <div class="comment-item-social">
+                                        <p>24 года</p>
+                                        <a href="#"><i class="fab fa-vk"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                    <p>
+                                        Рекомендую заниматься всем! У меня сколиоз и
+                                        спина часто болит после рабочего дня. После
+                                        занятий появилась лекость в мышцах и свобода
+                                        движений. Приходите! <br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev d-none d-md-block" href="#carouselComments" role="button"
+                        data-slide="prev">
+                        <img src="images/arrow-left.png" alt="">
+                    </a>
+                    <a class="carousel-control-next d-none d-md-block" href="#carouselComments" role="button"
+                        data-slide="next">
+                        <img src="images/arrow-right.png" alt="">
+                    </a>
+                </div>
+                <img src="images/nav-right-05.png" class="nav-right" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ================================  contacts  =============================================== -->
+    <section class="contacts">
+        <div class="container">
+            <a name="contacts"></a>
+            <div class="section-title">
+                <hr>
+                <span>контакты</span>
+            </div>
+            <div class="row contacts-map">
+                <div class="contacts-content">
+                    <span>Адрес:</span>
+                    <p>г. Кропоткин <br>ул. Дугинец 10а</p>
+                    <span>Телефон:</span>
+                    <p>+7 918 365 06 07</p>
+                    <span>E-mail</span>
+                    <p>pilatesplus@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scrollup">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div>
+    <!-- =======================================  footer  ============================== -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Pilates Plus, 2017 ©</p>
+                <a href="#"><img src="images/logo.png" alt=""></a>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        })
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+    </script>
+</body>
+
+</html>

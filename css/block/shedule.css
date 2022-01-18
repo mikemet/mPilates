@@ -1,0 +1,160 @@
+.level {
+    margin-top: 4rem;
+}
+
+.level-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #9cb269;
+
+    margin-bottom: 1rem;
+    z-index: 100;
+    color: #ffffff;
+    line-height: 0.8rem;
+}
+
+.level-item:first-child {
+    background-color: #c8d4ac;
+}
+
+.level-item:nth-child(2) {
+    background-color: #b2c38a;
+}
+
+.level-number {
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    z-index: -100;
+    font-size: 8.25rem;
+    color: #ffffff;
+    opacity: .1;
+}
+
+.level-item-title {
+    line-height: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.level-item-title span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.week-day,
+.cost {
+    font-weight: bold;
+}
+
+.cost {
+    margin-bottom: 1.5rem;
+}
+
+.level-item a {
+    border: 2px solid #ffffff;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.level-item a:hover {
+    color: dodgerblue;
+    text-decoration: none;
+    border: 2px solid dodgerblue;
+}
+
+.level-item a::first-letter {
+    text-transform: capitalize;
+}
+
+/* ===================================  modal window  ============================= */
+.modal {
+    font-family: 'Roboto-Regular';
+}
+
+.modal-content {
+    padding: 4rem 2rem;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    margin-bottom: 2rem;
+}
+
+.modal-body p {
+    font-size: 1rem;
+}
+
+.modal form {
+    margin-top: 3rem;
+}
+
+.modal-body input {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.modal-footer button {
+    background: #9cb269;
+}
+
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #9cb269;
+}
+
+.saveButton {
+    border: 2px solid #9cb269;
+    border-radius: 3rem;
+    color: #ffffff;
+}
+
+.saveButton:hover {
+    background: none;
+    color: #9cb269;
+}
+
+/* ===========================  media  =========================== */
+@media (min-width: 320px) {
+    .level {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* ============================================= */
+@media (min-width: 576px) {
+    .level {
+        justify-content: center;
+    }
+}
+
+/* ================================================ */
+@media (min-width: 768px) {}
+
+/* ================================================ */
+@media (min-width: 992px) {}
+
+/* ================================================ */
+@media (min-width: 1200px) {}

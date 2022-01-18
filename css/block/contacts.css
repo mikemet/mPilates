@@ -1,0 +1,37 @@
+.contacts-map {
+    background: url('/images/contacts-map.jpg') center center;
+    background-size: cover;
+    height: auto;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    border: 2px solid #9cb269;
+}
+
+.contacts-content {
+    background-color: rgb(145, 170, 89);
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    color: #ffffff;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.contacts-content span {
+    font-weight: bold;
+}
+
+/* ===========================  media  =========================== */
+@media (min-width: 320px) {}
+
+/* ============================================= */
+@media (min-width: 576px) {}
+
+/* ================================================ */
+@media (min-width: 768px) {}
+
+/* ================================================ */
+@media (min-width: 992px) {}
+
+/* ================================================ */
+@media (min-width: 1200px) {}

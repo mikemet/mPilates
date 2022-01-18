@@ -1,0 +1,43 @@
+.footer {
+    background-color: #91aa59;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: baseline;
+}
+
+.footer-content p {
+    color: #ffffff;
+}
+
+.footer-social a {
+    color: black;
+    margin-right: 1.3rem;
+}
+
+.footer-social a:hover {
+    color: #ffffff;
+}
+
+.footer-social a:last-child {
+    margin-right: 0;
+}
+
+/* ===========================  media  =========================== */
+@media (min-width: 320px) {}
+
+/* ============================================= */
+@media (min-width: 576px) {}
+
+/* ================================================ */
+@media (min-width: 768px) {}
+
+/* ================================================ */
+@media (min-width: 992px) {}
+
+/* ================================================ */
+@media (min-width: 1200px) {}
